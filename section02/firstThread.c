@@ -7,7 +7,7 @@ void *threadFunc(void *arg)
 {
     for (int i = 0; i < 3; i++)
     {
-        print("I'm threadFunc: %d\n, i");
+        printf("I'm threadFunc: %d\n", i);
         sleep(1);
     }
 
